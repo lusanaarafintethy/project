@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>Hospital Management System</title>
+<style>
+#container ul{list-style:none;}
+#container ul li{
+background-color:white;
+width:120px;
+border:10px solid white;
+height:50px;
+text-align:center;
+float:left;	
+color:black;
+font-size:15px; 
+	 
+	 }
+	 #container ul li;hover{
+	 background-color:green;
+	 }
+	 
+	 </style>
+       <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+   
+<body bgcolor="gray">
+<div id="container">
+<ul>
+
+    <li><a href="#">Home</a>
+ <ul> 
+   <li></li>
+ </ul>
+ </li>
+    <li><a href="#">Near me</a>
+<ul> 
+        <li>Khidmah Hospital</li>
+        <li>Hiquemah Eye Hospital</li>
+        <li>Islamia hospital</li>
+</ul>
+</li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Notice Board</a>
+    <ul>
+        <li>Meeting</li>
+        
+    </ul>
+    </li>
+    <li><a href="#">Online Payment</a>
+    </li>
+    <li><a href="#">Doctor Appointment</a>
+    <ul>
+        <li>patient name</li>
+        <li>patient phone no.</li>
+        <li>patient age</li>
+        <li>Serial no.</li>
+    </ul>
+</li>
+    <li><a href="#">Ambulance Service</a>
+    <ul>
+        <li>phn. no.</li>
+        </ul>
+    </li>
+    <li><a href="#">Find A Doctor</a>
+<ul>
+        <li>Hospital wise</li>
+        <li>Department wise</li>
+        <li>Branch wise</li>
+        <li>Doctor name wise</li>
+</ul>
+
+
+</li>
+    <li><a href="#">Recent Medical Camp</a>
+    <ul>
+        <li>location</li>
+        <li>Date</li>
+        </ul>
+    </li>
+</ul>
+<img src="khidmah.JPG" alt="This is an image about hospital" width="1350" height="600">
+<p></p>
+</body>
+</html>
